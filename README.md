@@ -1,4 +1,4 @@
-# vue-test
+# Todo list
 
 ## Project setup
 ```
