@@ -4,18 +4,18 @@
       :class="{'disabled': isDisabled}"
   >
     <input
-        @change="dis($event)"
+        @change="dis"
+        :checked="isDisabled"
         type="checkbox"
         name="check"
         id="check"
-        :checked="isDisabled"
     />
     <div
         class="content"
     >
       <p>{{ text }}</p>
       <span
-          @click="remove($event)"
+          @click="remove"
           class="material-icons span i"
       >delete</span>
     </div>

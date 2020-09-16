@@ -12,7 +12,7 @@
     </div>
     <div class="list">
       <app-list-item
-          @deleting="del($event)"
+          @deleting="del"
           @disable="makeDisabled"
           v-for="(item, index) in array"
           :text="item.info"
